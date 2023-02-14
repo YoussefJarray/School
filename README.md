@@ -1,11 +1,11 @@
 # School
-<p style="text-align:center;">just some work for school</p>
+<p style="text-align:center">just some work for school</p>
 
 
 <div align=center>
   
  <p align=center>
-  <img src="https://i.pinimg.com/originals/59/54/b4/5954b408c66525ad932faa693a647e3f.jpg" width=800>
+  <img src="https://i.ytimg.com/vi/X_BFAvA8Scc/maxresdefault.jpg">
  </p>
   
 </div>
