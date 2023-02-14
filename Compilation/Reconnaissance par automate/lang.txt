@@ -1,0 +1,9 @@
+Ce fichier contient les donnees pour un automate reconnaissant les mots de l'e.r.
+(a|b)*abb
+a b
+4 2
+1 0
+1 2
+1 3
+1 0
+3
