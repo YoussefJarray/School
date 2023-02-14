@@ -1,0 +1,44 @@
+<html>
+    <style>
+        .inputDisplay {
+            width: 220px;
+            display: inline-block;
+        }
+        div {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+    <div>
+        <form>
+            <label class="inputDisplay" for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" value="saisir votre Nom"><br>
+            <label class="inputDisplay" for="prenom">Prénom:</label>
+            <input type="text" id="prenom" name="prenom"><br>
+            
+            <label class="inputDisplay">Sexe</label>
+            <label for="masculin">Masculin</label>
+            <input type="radio" id="masculin" name="sexe" value="Masculin">
+            <label for="feminin">Féminin</label>
+            <input type="radio" id="feminin" name="sexe" value="Féminin"><br>
+            
+    
+            <label class="inputDisplay" for="pays">Pays</label>
+            <select id="pays" name="pays">
+                <option value="france">France</option>
+                <option value="tunisie">Tunisie</option>
+            </select><br>
+    
+            <label class="inputDisplay">Domaines d'activités</label>
+            <input type="checkbox" id="informatique" name="informatique" value="Informatique">
+            <label for="vehicle1">Informatique</label>
+            <input type="checkbox" id="gestion" name="gestion" value="gestion">
+            <label for="vehicle1">Gestion</label><br>
+    
+            <input type="submit" value="Envoyer">
+            <input type="button" value="Annuler">
+    
+        </form>
+    </div>
+    <br><p style="text-align: center;">Youssef Jarray</p> 
+</html>
