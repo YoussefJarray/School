@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .inputDisplay {
+            display: inline-block;
+            padding: 10px;
+        }
+        .div-border {
+            border-style: solid;
+            border-radius: 1;
+            justify-content: center;
+            padding: 10px;
+        }
+        .center {
+            text-align: center;
+            margin: 50px;
+        }
+        .flexbox {
+            display: flex;
+            justify-content: left;
+        }
+    </style>
+
+    <div class="div-border" border="1">
+        <form>
+            <label class="inputDisplay" for="nom">Nom : </label>
+            <input type="text" id="nom" name="nom">
+
+            <label class="inputDisplay" for="prenom">Prénom : </label>
+            <input type="text" id="prenom" name="prenom"><br>
+
+            <label class="inputDisplay" for="age">Age : </label>
+            <input style="width:250px" type="text" id="age" name="age">
+
+            <label class="inputDisplay">Sexe : </label>
+            <input type="radio" id="masculin" name="sexe" value="Masculin">
+            <label for="masculin">Masculin</label>
+            <input type="radio" id="feminin" name="sexe" value="Féminin">
+            <label for="feminin">Féminin</label><br>
+
+            <label class="inputDisplay" for="birthday">Date de naissance : </label>
+            <input type="date" id="birthday" name="birthday">
+
+            <label class="inputDisplay" for="telephone" id="telephone">Téléphone : </label>
+            <input type="tel" name="telephone" pattern="[0-9]{2}-[0-9]{3}-[0-9]{3}"/>
+        </form>
+    </div>
+
+    <div class="div-border flexbox">
+        <div style="padding-right: 200px;">
+            <label>Vous Maîtrisez : </label><br>
+            <input type="checkbox" id="html" name="html" value="HTML">
+            <label for="lang">HTML</label><br> <input type="checkbox" id="css" name="css" value="CSS">
+            <label for="lang">CSS</label><br>
+            <input type="checkbox" id="js" name="js" value="JS"> <label for="lang">JavaScript</label><br>
+            <input type="checkbox" id="xml" name="xml" value="XML">
+            <label for="lang">XML</label><br>
+            <input type="checkbox" id="xsl" name="xsl" value="XSL"> <label for="lang">XSL</label><br>
+            <input type="checkbox" id="svg" name="svg" value="SVG">
+            <label for="lang">SVG</label><br>
+            <input type="button" value="Entrez votre Voeux de recherche ici">
+        </div>
+        <div style="padding-right: 200px;">
+            <textarea name="message" rows="10" cols="30">  Que souhaitez-vous voir figurer sur ce site?</textarea><br>
+        </div>
+    </div>
+
+    <div class="center">
+        <input style="margin-bottom: 20px;" type="submit" value="Envoyer"><br>
+        <input type="button" value="Recommencer">
+    </div>
+
+    <br><p style="text-align: center;">Youssef Jarray</p> 
+</html>
